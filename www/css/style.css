@@ -1,0 +1,148 @@
+img{
+  object-fit:cover;
+}
+
+.text-muted{
+    color:#6d6d72 !important;
+}
+/* === Color Themes === */
+.color-gray {
+  color: #8e8e93 !important;
+}
+.color-red {
+  color: #ff3b30 !important;
+}
+
+.bg-color-red {
+  background-color: #ff3b30 !important;
+}
+.color-white {
+  color: #ffffff !important;
+}
+.color-yellow {
+  color: #ffcc00 !important;
+}
+.bg-color-yellow {
+  background-color: #ffcc00 !important;
+}
+.color-green {
+  color: #4cd964 !important;
+}
+
+.color-orange {
+  color: #ff9500 !important;
+}
+.bg-color-orange {
+  background-color: #ff9500 !important;
+}
+.color-blue {
+  color: #007aff !important;
+}
+.bg-color-blue {
+  background-color: #007aff !important;
+}
+.color-lightblue {
+  color: #5ac8fa !important;
+}
+.bg-color-lightblue {
+  background-color: #5ac8fa !important;
+}
+
+.color-bluegray{
+  color: #607d8b !important;
+}
+.bg-color-bluegray{
+  background-color: #607d8b !important;
+}
+.color-night{
+  color: #2B1B17 !important;
+}
+.color-black{
+  color: black !important; 
+}
+
+.bg-color-white {
+  background-color: #ffffff;
+}
+.bg-color-green {
+  background-color: #4cd964 !important;
+}
+
+/*Profile Starts*/
+.img-circle {
+  border-radius: 50%;
+}
+
+
+.about-header {
+  /*background-color: #444;*/
+  height: 230px;
+  overflow: hidden;
+  /*box-shadow: 0 -70px 150px;*/
+}
+.about-image {
+  width: 100%;
+  /*height: 220px;*/
+  height: 100%;
+  object-fit:cover;
+}
+.like-btn{
+    top: 130px;
+    display: block;
+    position: absolute;
+}
+
+
+.like-button {
+    border-radius: 500px;
+    width: 70px;
+    float: right;
+    height: 70px;
+    z-index: -200;
+    text-align: center;
+    overflow: hidden;
+    clear: both;
+    color: white;
+    border: 5px solid #CBD0D3;
+}
+.like-button i{
+    font-size: 40px;
+    margin: 11px 0;
+    display: block;
+}
+.like-button-with-text {
+    border-radius: 500px;
+    width: 70px;
+    float: right;
+    height: 70px;
+    z-index: -200;
+    text-align: center;
+    overflow: hidden;
+    clear: both;
+    color: white;
+    border: 5px solid #CBD0D3;
+}
+.like-button-with-text i{
+    font-size: 35px;
+    margin: 4px 0;
+    display: block;
+    margin-bottom: -3px !important;
+}
+.like-button-with-text span{
+    font-size: 11px;
+}
+
+.profile-media {background: #000; min-height: 237px; overflow: hidden; position: relative;}
+.profile-media .profile-background-image {
+  opacity: 0.3;
+  position: absolute;
+  object-cover:fit;
+  top:-100%;
+  left:0;
+  right: 0;
+  bottom:-100%;
+  margin: auto;
+}
+.profile-media .profile-details {text-align: center; position: absolute; width: 100%; color: #fff; padding: 20px 5% 0 5%;}
+.profile-media .profile-details .profile-image {width: 76px;height:76px;object-cover:fit; border: 4px solid rgba(255, 255, 255, 0.9);}
+
